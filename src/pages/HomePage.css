@@ -1,0 +1,117 @@
+
+.main-about {
+  display: flex;
+  height: 620px;
+}
+.main-about_text h1 {
+font-family: Ferry, sans-serif;
+font-weight: 900;
+font-size: 60px;
+line-height: 100%;
+letter-spacing: 1%;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+.main-about_text p {
+  margin: 0;
+  font-size: 20px;
+  width: 534px;
+}
+.main-about_button {
+  font-weight: 500;
+  font-size: 22px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(89, 112, 255, 1);
+  width: 335px;
+  height: 59px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 70px;
+  cursor: pointer;
+}
+.main-about_button:active {
+  background-color:  rgba(2, 148, 145, 0.5);
+}
+.main-about_plug {
+  position: relative;
+  bottom: 600px;
+  left: 535px;
+}
+.carousel h2 {
+  font-family: Ferry, sans-serif;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 100%;
+  letter-spacing: 1%;
+  text-transform: uppercase;
+  margin: 109px 0 70px 0;
+}
+
+@media (max-width: 375px) {
+    .page-wrapper {
+        width: 335px;
+        margin: 20px 26px 0px 14px;
+    }
+}
+
+@media (max-width: 375px) {
+    .main-about {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .main-about_text h1 {
+        font-size: 28px;
+        line-height: 100%;
+        letter-spacing: 0;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .main-about_text p {
+        width: 100%;
+        font-size: 18px;
+        letter-spacing: 1%;
+    }
+
+    .main-about_button {
+        display: block;
+        width: 335px;
+        height: 59px;
+        margin-top: 50px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .main-about_img {
+        position: relative;
+        width: 100%;
+        margin-top: 39px;
+    }
+
+    .main-about_img > img:first-child {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+.main-about_plug {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    bottom: auto;
+    left: auto;
+    width: 38px;
+    height: auto;
+    object-fit: contain;
+}
+
+        .carousel h2 {
+        width: 274px;
+        font-size: 28px;
+        line-height: 100%;
+        letter-spacing: 0;
+        margin: 55px 0 32px;
+    }
+}

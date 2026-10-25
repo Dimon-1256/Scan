@@ -1,0 +1,64 @@
+.calendar {
+    width: 280px;
+    padding: 16px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(204, 204, 204, 1);
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.calendar_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.calendar_month {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.calendar_arrow {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.calendar_weekdays,
+.calendar_days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar_weekday {
+    padding-bottom: 8px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.calendar_day {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    margin: 2px auto;
+    border: none;
+    border-radius: 50%;
+    background: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.calendar_day:hover:not(:disabled) {
+    background-color: rgba(2, 148, 145, 0.1);
+}
+
+.calendar_day:disabled {
+    cursor: default;
+}
