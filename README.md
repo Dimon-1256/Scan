@@ -9,3 +9,4 @@
   - Валидные HTML и CSS;
   - Применение современных технологий Flexbox и CSS Grid;
   - Проект выполнен с соблюдением всех стандартов качества и современного подхода к разработке.
+Ссылка на макет: https://www.figma.com/design/u3MOjzYnTnirz712GrLbFv/Макет-СКАН?node-id=0-1&p=f&t=D577ghRFQsQCyMuf-0
